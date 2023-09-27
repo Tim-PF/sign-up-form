@@ -10,11 +10,53 @@
     <div class="image-container">
         <img src="images/halie-west-OYRGy70RT2g-unsplash.jpg" id="desert-image">
         <div class="logo-container">
-            <img src="" alt="">
-            <p>Test Project</p>
+            <img src="images/Cactus_Monogram.png" alt="">
+            <p>Lonely Wilds</p>
 
         </div>
     </div>
-    <div class = "form-container"></div>
+    <div class = "info-container">
+        <div class="description-container">
+            <p>This is not really a lonely desert! It looks more like Antilope Canyon! But
+                just take a deep breath and imagine yourself in this wonderful nature.
+            And... you can fill out this form while you're at it.</p>
+            <p>You know you want to!</p>
+        </div>
+        <div class="form-container">
+           
+            <form action="" method="" id="form-1" class="form-example-form">
+                <div class="form-example-container">
+                    <div class="form-example">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="user-first-name" required>
+                    </div>
+                    <div class="form-example">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="user-last-name" required>
+                    </div>
+                    <div class="form-example">
+                        <label for="user-email">E-MAIL</label>
+                        <input type="email" id="user-email" name="user-email" required>
+                    </div>
+                    <div class="form-example">
+                        <label for="user-tel">PHONE NUMBER</label>
+                        <input type="tel" id="user-tel" name="user-tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
+                    <div class="form-example">
+                        <label for="user-pw">PASSWORD</label>
+                        <input type="password" id="user-pw" name="user-pw" required>
+                    </div>
+                    <div class="form-example">
+                        <label for="user-pw-confirmation">CONFIRM PASSWORD</label>
+                        <input type="password" id="user-pw-confirmation" name="user-pw-confirmation" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="sign-up-container">
+            <button type="submit" form="form-1">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+    </div>
 </body>
 </html>
