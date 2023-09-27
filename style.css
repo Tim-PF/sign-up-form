@@ -165,3 +165,7 @@ a {
     text-decoration: none;
     font-size:20px;
 }
+
+.password-error-message {
+    color: red;
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="image-container">
@@ -29,6 +30,7 @@
                     <div class="form-example">
                         <label for="first-name">FIRST NAME</label>
                         <input type="text" id="first-name" name="user-first-name" required>
+                        
                     </div>
                     <div class="form-example">
                         <label for="last-name">LAST NAME</label>
@@ -45,10 +47,12 @@
                     <div class="form-example">
                         <label for="user-pw">PASSWORD</label>
                         <input type="password" id="user-pw" name="user-pw" required>
+                        <div class="password-error-message"></div>
                     </div>
                     <div class="form-example">
                         <label for="user-pw-confirmation">CONFIRM PASSWORD</label>
                         <input type="password" id="user-pw-confirmation" name="user-pw-confirmation" required>
+                        <div class="password-error-message"></div>
                     </div>
                 </div>
             </form>
