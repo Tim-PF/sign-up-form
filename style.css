@@ -86,7 +86,7 @@ object-fit: cover;
     display:flex;
     flex:1;
     background-color: #58b884 ;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); ;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); 
     justify-content: center;
 }
 
@@ -103,10 +103,24 @@ object-fit: cover;
 }
 
 .sign-up-container > button{
-    display:inline-block;
-    width:100px;
-    height:100px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: #58b884;
+    display: block;
+    width: 250px;
+    color:antiquewhite;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 20px 20px 10px 10px;
+    border: 1px solid white;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); 
+    
+}
 
+.sign-up-container > p {
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .form-example-container {
@@ -114,7 +128,7 @@ object-fit: cover;
     width: 50vw;
     grid-template-columns: 1fr 1fr;
     gap:45px;
-    padding:50px;
+    padding:20px;
 }
 
 .form-example {
@@ -127,10 +141,27 @@ object-fit: cover;
 
 .form-example > input {
     height:40px;
-    border-radius: 20px;
+    
     border:none;
     margin-top: 10px;
     padding:30px;
     font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgb(0,0,0,.4);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-example > input:focus {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.1s;
+    outline:none;
+}
+
+a {
+    font-family: odinFont;
+    color:#58b884;
+    text-decoration: none;
+    font-size:20px;
 }
